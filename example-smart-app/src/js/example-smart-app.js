@@ -8,7 +8,7 @@
         }
 
         function onReady(smart) {
-            console.log("FHIR Context", smart);
+            console.log("FHIR Launch Context", smart);
             if (smart.hasOwnProperty('patient')) {
                 var patient = smart.patient;
                 var pt = patient.read();
